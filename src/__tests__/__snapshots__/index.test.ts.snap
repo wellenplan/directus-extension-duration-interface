@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`duration interface index should define an interface 1`] = `
+Object {
+  "component": Object {
+    "emits": Array [
+      "input",
+    ],
+    "props": Object {
+      "autofocus": Object {
+        "required": false,
+        "type": [Function],
+      },
+      "clear": Object {
+        "required": false,
+        "type": [Function],
+      },
+      "dbSafe": Object {
+        "required": false,
+        "type": [Function],
+      },
+      "disabled": Object {
+        "required": false,
+        "type": [Function],
+      },
+      "font": Object {
+        "default": "sans-serif",
+        "required": false,
+        "type": [Function],
+      },
+      "max": Object {
+        "required": false,
+        "type": Array [
+          [Function],
+          null,
+        ],
+      },
+      "min": Object {
+        "required": false,
+        "type": Array [
+          [Function],
+          null,
+        ],
+      },
+      "placeholder": Object {
+        "required": false,
+        "type": [Function],
+      },
+      "slug": Object {
+        "required": false,
+        "type": [Function],
+      },
+      "step": Object {
+        "default": 1,
+        "required": true,
+        "type": [Function],
+      },
+      "type": Object {
+        "required": false,
+        "type": [Function],
+      },
+      "value": Object {
+        "required": true,
+        "type": [Function],
+      },
+    },
+    "render": [Function],
+    "setup": [Function],
+  },
+  "description": "$:duration.interface.description",
+  "icon": "timer",
+  "id": "duration",
+  "name": "$:duration.interface.name",
+  "options": Array [
+    Object {
+      "field": "min",
+      "meta": Object {
+        "interface": "input",
+        "width": "half",
+      },
+      "name": "$t:interfaces.input.minimum_value",
+      "type": "integer",
+    },
+    Object {
+      "field": "max",
+      "meta": Object {
+        "interface": "input",
+        "width": "half",
+      },
+      "name": "$t:interfaces.input.maximum_value",
+      "type": "integer",
+    },
+    Object {
+      "field": "step",
+      "meta": Object {
+        "interface": "input",
+        "width": "half",
+      },
+      "name": "$t:interfaces.input.step_interval",
+      "schema": Object {
+        "default_value": 1,
+      },
+      "type": "integer",
+    },
+    Object {
+      "field": "placeholder",
+      "meta": Object {
+        "interface": "system-input-translated-string",
+        "options": Object {
+          "placeholder": "$t:enter_a_placeholder",
+        },
+        "width": "half",
+      },
+      "name": "$t:placeholder",
+      "type": "string",
+    },
+    Object {
+      "field": "font",
+      "meta": Object {
+        "interface": "select-dropdown",
+        "options": Object {
+          "choices": Array [
+            Object {
+              "text": "$t:sans_serif",
+              "value": "sans-serif",
+            },
+            Object {
+              "text": "$t:monospace",
+              "value": "monospace",
+            },
+            Object {
+              "text": "$t:serif",
+              "value": "serif",
+            },
+          ],
+        },
+        "width": "half",
+      },
+      "name": "$t:font",
+      "schema": Object {
+        "default_value": "sans-serif",
+      },
+      "type": "string",
+    },
+  ],
+  "types": Array [
+    "integer",
+    "float",
+    "decimal",
+  ],
+}
+`;

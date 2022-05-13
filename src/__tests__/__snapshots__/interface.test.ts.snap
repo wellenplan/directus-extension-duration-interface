@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`duration interface should render { value: 0, step: 1 } 1`] = `
+"<div class=\\"v-form grid with-fill\\">
+  <div class=\\"field half\\">
+    <v-input autofocus=\\"false\\" model-value=\\"0\\" nullable=\\"true\\" disabled=\\"false\\" class=\\"sans-serif\\" db-safe=\\"false\\" slug=\\"false\\" step=\\"1\\"></v-input>
+  </div>
+  <div class=\\"field half-right\\">
+    <v-select model-value=\\"60\\" items=\\"[object Object],[object Object],[object Object],[object Object]\\" disabled=\\"false\\" show-deselect=\\"false\\" allow-other=\\"false\\"></v-select>
+  </div>
+</div>"
+`;
