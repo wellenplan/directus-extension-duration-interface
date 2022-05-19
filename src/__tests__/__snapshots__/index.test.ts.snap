@@ -6,6 +6,7 @@ Object {
     "emits": Array [
       "input",
     ],
+    "name": "interface",
     "props": Object {
       "autofocus": Object {
         "required": false,
