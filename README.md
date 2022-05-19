@@ -1,4 +1,4 @@
-# Duration Interface Extention for Directus
+# Duration Interface Extension for Directus
 
 Duration interface extension for [Directus](https://directus.io/).
 
