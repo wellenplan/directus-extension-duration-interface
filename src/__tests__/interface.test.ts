@@ -2,7 +2,9 @@ import { mount } from "@vue/test-utils";
 import InterfaceComponent from "./../interface.vue";
 import { createI18n } from 'vue-i18n'
 
-const i18n = createI18n({})
+const i18n = createI18n({
+  legacy: false,
+})
 
 const props = [
   {
