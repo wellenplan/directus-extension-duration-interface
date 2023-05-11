@@ -30,7 +30,7 @@
     "jest-environment-jsdom": "^29.5.0",
     "ts-jest": "^28.0.8",
     "typescript": "^5.0.2",
-    "vue": "^3.2.45",
+    "vue": "^3.3.1",
     "vue-i18n": "^9.2.2"
   }
 }
